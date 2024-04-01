@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234180213119",
+    "project_id": "dbproject-f2da4",
+    "storage_bucket": "dbproject-f2da4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234180213119:android:81fff7377b475fbbb4024a",
+        "android_client_info": {
+          "package_name": "com.example.mdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHP8v1w97yYFO1t6ytHyrKAPgKcyQGyG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234180213119:android:a13af6eae0f03c83b4024a",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHP8v1w97yYFO1t6ytHyrKAPgKcyQGyG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
