@@ -7,12 +7,13 @@
     tools:context=".activity.UploadActivity">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_marginStart="40dp"
+        android:layout_gravity="center"
         app:cardCornerRadius="30dp">
         <LinearLayout
-         android:layout_height="wrap_content"
+         android:layout_height="match_parent"
          android:layout_width="match_parent"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
@@ -60,8 +61,17 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:id="@+id/etMovieRate"
-                android:hint="Rate"/>
+                android:id="@+id/etMovieGenre"
+                android:hint="Genre"/>
+
+            <EditText
+                android:id="@+id/etMovieActors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:hint="Actors" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -69,8 +79,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:id="@+id/etMovieActors"
-                android:hint="Actors"/>
+                android:id="@+id/etMovieRate"
+                android:hint="Rate"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

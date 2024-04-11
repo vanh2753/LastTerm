@@ -1,20 +1,40 @@
 package com.example.mdb.model;
 
+import java.util.ArrayList;
+
 public class Movie {
+    private String movieId;
     private String movieImage;
     private String movieName;
     private String movieTime;
     private String movieYear;
+    private String movieGenre;
     private Float movieRate;
-    private String[] movieActors;
+    private String movieActors;
 
-    public Movie(String movieImage, String movieName, String movieTime, String movieYear, Float movieRate, String[] movieActors) {
+    public Movie(String movieId) {
+        this.movieId = movieId;
+    }
+
+    public String getMovieId() {
+        return movieId;
+    }
+
+    public void setMovieId(String movieId) {
+        this.movieId = movieId;
+    }
+
+    public Movie(){
+        // constructor
+    }
+    public Movie(String movieImage, String movieName, String movieTime, String movieYear, String movieGenre, String movieActors, Float movieRate) {
         this.movieImage = movieImage;
         this.movieName = movieName;
         this.movieTime = movieTime;
         this.movieYear = movieYear;
-        this.movieRate = movieRate;
+        this.movieGenre = movieGenre;
         this.movieActors = movieActors;
+        this.movieRate = movieRate;
     }
 
     public String getMovieImage() {
@@ -33,11 +53,15 @@ public class Movie {
         return movieYear;
     }
 
+    public String getMovieGenre() {
+        return movieGenre;
+    }
+
     public Float getMovieRate() {
         return movieRate;
     }
 
-    public String[] getMovieActors() {
+    public String getMovieActors() {
         return movieActors;
     }
 
@@ -57,11 +81,15 @@ public class Movie {
         this.movieYear = movieYear;
     }
 
+    public void setMovieGenre(String movieGenre) {
+        this.movieGenre = movieGenre;
+    }
+
     public void setMovieRate(Float movieRate) {
         this.movieRate = movieRate;
     }
 
-    public void setMovieActors(String[] movieActors) {
+    public void setMovieActors(String movieActors) {
         this.movieActors = movieActors;
     }
 }
